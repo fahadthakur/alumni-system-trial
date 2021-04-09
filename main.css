@@ -15,14 +15,14 @@ html {
 body {
     font-family: 'Merriweather', sans-serif;
     background: linear-gradient(45deg, #23A6D5, #8f0b89, #23A6D5);
-    background-size: 400% 400%;
-    animation: Gradient 20s ease-in-out infinite;
+    background-size: 100% 100%;
+    /* animation: Gradient 20s ease-in-out infinite; */
     position: relative;
     min-height: 100vh;
     transform: translateZ(0);
 }
 
-@keyframes Gradient {
+/* @keyframes Gradient {
     0% {
         background-position: 0% 50%
     }
@@ -32,7 +32,7 @@ body {
     100% {
         background-position: 0% 50%
     }
-}
+} */
 
 
 /* ------------------------------------------------------- */
