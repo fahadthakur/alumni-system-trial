@@ -16,23 +16,10 @@ body {
     font-family: 'Merriweather', sans-serif;
     background: linear-gradient(45deg, #23A6D5, #8f0b89, #23A6D5);
     background-size: 100% 100%;
-    /* animation: Gradient 20s ease-in-out infinite; */
     position: relative;
     min-height: 100vh;
     transform: translateZ(0);
 }
-
-/* @keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-} */
 
 
 /* ------------------------------------------------------- */
@@ -173,6 +160,10 @@ footer {
         margin-top: 20px;
     }
 
+    .announcement-sec{
+        margin-top: 20px;
+    }
+
     /* REGISTER PAGE */
     .register .left-col {
     border-top-right-radius: 10px !important;
@@ -214,9 +205,9 @@ footer {
 
 .jumbotron-news {
     margin-top: 1rem;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background: rgba(221, 221, 221, 0.6);
+    background: rgba(36, 36, 36, 0.6);
     border-radius: .4rem;
     color: white;
 }
@@ -257,6 +248,19 @@ footer {
     font-weight: 800;
     color: #8f0b89;
 }
+
+.news-home-link{
+    text-decoration: none;
+    font-weight: 800;
+    color: #8f0b89;
+}
+
+.news-home-link:hover{
+    text-decoration: none;
+    font-weight: 800;
+    color: #8f0b89;
+}
+
 
 
 /* ------------------------------------------------------- */
