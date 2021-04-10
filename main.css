@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 html {
     width: 100%;
     min-height: 100%;
@@ -203,6 +204,10 @@ footer {
     color: white;
 }
 
+.jumbotron-events h2{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
 .jumbotron-news {
     margin-top: 1rem;
     padding: 2rem 1rem;
@@ -210,6 +215,10 @@ footer {
     background: rgba(36, 36, 36, 0.6);
     border-radius: .4rem;
     color: white;
+}
+
+.jumbotron-news h2{
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .jumbotron-button{
