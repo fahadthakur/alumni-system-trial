@@ -207,6 +207,10 @@ footer {
     color: white;
 }
 
+.jumbotron-main h2{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
 .jumbotron-events {
     margin-top: 1rem;
     padding: 2rem 2rem;
