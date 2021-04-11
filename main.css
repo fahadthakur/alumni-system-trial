@@ -131,7 +131,7 @@ footer {
 
 /* ------------------------------------------------------- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .navbar-brand {
         white-space: normal;
     }
@@ -188,6 +188,11 @@ footer {
     /* Register Page */
     .cont-right{
         margin-top: 30px;
+    }
+
+    .reg-pic img{
+        height: auto;
+        width: auto;
     }
 }
 
@@ -524,9 +529,11 @@ footer {
     margin-top: 50px;
 }
 .reg-pic{
+    justify-content: center;
     align-items: center;
 }
 .reg-pic img{
-    max-height: 400px;
+    height: 155%;
+    width: 155%;
 }
 /* ------------------------------------------------------- */
