@@ -393,7 +393,7 @@ footer {
 }
 .register .left-col {
     /* background-image: linear-gradient(to bottom left, #23A6D5, #c532be, #8f0b89); */
-    background-color: #c532be;
+    background-color: #8f0b89;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -439,7 +439,9 @@ footer {
     margin-top: 50px;
 }
 .reg-pic{
-    justify-items: center;
-    justify-content: center;
+    align-items: center;
+}
+.reg-pic img{
+    max-height: 400px;
 }
 /* ------------------------------------------------------- */
