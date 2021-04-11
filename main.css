@@ -186,6 +186,9 @@ footer {
     border-top-right-radius: 0 !important;
     }
     /* Register Page */
+    .cont-right{
+        margin-top: 30px;
+    }
 }
 
 
@@ -303,21 +306,19 @@ footer {
 
 /* Contact Us */
 /* ------------------------------------------------------- */
-
-.contact-us {	
-	margin-top: 80px;
+.contactus{
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 .form-contactus {
-    max-width: 1000px;
-    padding: 40px 40px 45px;
+    max-width: 1280px;
+    padding: 20px 40px 20px;
     margin: 0 auto;
     background-color: rgb(243, 243, 243, 0.9);
     border-radius: 20px;
     font-family: 'Hammersmith One', sans-serif;
 }
 .contact-us-heading {
-    
     text-align: center;
 }
 .form-contactus .contact-us-heading,
@@ -371,6 +372,7 @@ footer {
 .submit-message:hover {
     box-shadow: 0 0 15px #c532be;
 }
+
 
 
 /* ------------------------------------------------------- */
@@ -476,7 +478,6 @@ footer {
 }
 .register .left-col {
     /* background-image: linear-gradient(to bottom left, #23A6D5, #c532be, #8f0b89); */
-    background-color: #8f0b89;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
