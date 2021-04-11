@@ -263,6 +263,10 @@ footer {
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
 
+.jumbotron-events .card-title{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
 .event-card:hover{
     transform: scale(1.05);
     z-index: 5;
@@ -291,6 +295,83 @@ footer {
 }
 
 
+/* ------------------------------------------------------- */
+
+
+
+
+
+/* Contact Us */
+/* ------------------------------------------------------- */
+
+.contact-us {	
+	margin-top: 80px;
+    margin-bottom: 80px;
+}
+.form-contactus {
+    max-width: 1000px;
+    padding: 40px 40px 45px;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243, 0.9);
+    border-radius: 20px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.contact-us-heading {
+    
+    text-align: center;
+}
+.form-contactus .contact-us-heading,
+.form-contactus .checkbox {
+    margin-bottom: 30px;
+}
+.form-contactus .checkbox {
+    font-weight: normal;
+}
+.form-contactus .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.form-contactus .form-control:focus {
+    z-index: 2;
+    box-shadow: 0 0 15px #c532be !important;
+}
+.form-contactus ::placeholder {
+    color: #8f0b89;
+}
+.form-contactus input[type="text"] {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.contact-us textarea {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.bottom-submit{
+    margin-top: 4px;
+    display: grid;
+    justify-content: center;
+}
+.submit-message {
+    justify-self: center;
+    max-width: 125px;
+    padding: 10px 35px;
+    margin-top: 15px;
+    background: #aa2aa4;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    transition: 0.25s;
+}
+.submit-message:hover {
+    box-shadow: 0 0 15px #c532be;
+}
+
 
 /* ------------------------------------------------------- */
 
@@ -313,8 +394,10 @@ footer {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 .form-signin-heading {
+    
     text-align: center;
 }
 .form-signin .form-signin-heading,
@@ -411,6 +494,7 @@ footer {
 
 .form-reg-heading {
     margin-bottom: 50px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 .form-reg-check {
     padding-top: 60px;
