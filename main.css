@@ -41,6 +41,14 @@ body {
     background-color: #f3f3f3;
     max-height: 110px;
 }
+.navbar.scrolled {
+    background: rgb(243, 243, 243,0.88) !important;
+    transition: background 0.25s;
+}
+.navbar.scrolled:hover {
+    background: rgb(243, 243, 243) !important;
+    transition: background 0.25s;
+}
 #regbutton , #logbutton {
     padding: 0.65rem 1.45rem;
 }
@@ -123,7 +131,7 @@ footer {
 
 /* ------------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .navbar-brand {
         white-space: normal;
     }
